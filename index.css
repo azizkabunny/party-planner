@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  /* background-color: blue; */
+}
+
+.events {
+  /* background-color: aqua; */
+  display: grid;
+  gap: 1rem;
+  padding-left: 2rem;
+  list-style: none;
+  text-transform: capitalize;
+}
+.events a {
+  display: block;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 4px;
+  width: 50%;
+}
+
+.selected-event {
+  padding-left: 3rem;
+  line-height: 25px;
+}
+
+.message {
+  /* background-color: aqua;  */
+  padding-left: 2rem;
+  /* font-family: cursive; */
+}
